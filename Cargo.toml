@@ -1,0 +1,14 @@
+[workspace]
+members = [
+    "xtask",
+    "apps/hello-world",
+    "plat/qemu-loongarch",
+    "plat/qemu-riscv-virt",
+    "libs/cboot",
+    "plat/cconsole",
+    "libs/cstdio",
+    "kernel-app",
+    "apps/heap-consumer",
+    "libs/calloc-trait",
+    "libs/calloc_impl"
+]

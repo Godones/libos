@@ -1,0 +1,19 @@
+[package]
+name = "cboot"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+qemu-riscv-virt = { path = "../../plat/qemu-riscv-virt"}
+qemu-loongarch = {path = "../../plat/qemu-loongarch"}
+cconsole = {path = "../../plat/cconsole" }
+calloc-trait = {path = "../calloc-trait"}
+calloc_impl = { version = "0.1.0", path = "../calloc_impl", features = ["linked-list"] }
+
+[features]
+qemu-riscv-virt = []
+qemu-loongarch = []
+
+alloc = []
