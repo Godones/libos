@@ -83,7 +83,6 @@ impl Generator{
                 println!("choose {} for alloc",class.as_str().trim());
                 // 修改cboot的calloc_impl依赖项
 
-
                 let _output = Command::new("cargo")
                     .arg("rm")
                     .arg("calloc_impl")

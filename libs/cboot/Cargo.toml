@@ -10,7 +10,7 @@ qemu-riscv-virt = { path = "../../plat/qemu-riscv-virt"}
 qemu-loongarch = {path = "../../plat/qemu-loongarch"}
 cconsole = {path = "../../plat/cconsole" }
 calloc-trait = {path = "../calloc-trait"}
-calloc_impl = { version = "0.1.0", path = "../calloc_impl", features = ["linked-list"] }
+calloc_impl = { version = "0.1.0", path = "../calloc_impl", features = ["buddy"] }
 
 [features]
 qemu-riscv-virt = []
